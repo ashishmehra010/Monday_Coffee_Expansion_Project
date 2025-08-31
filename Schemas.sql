@@ -5,13 +5,6 @@ DROP TABLE IF EXISTS customers;
 DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS city;
 
--- Import Rules
--- 1st import to city
--- 2nd import to products
--- 3rd import to customers
--- 4th import to sales
-
-
 CREATE TABLE city
 (
 	city_id	INT PRIMARY KEY,
@@ -51,6 +44,7 @@ CREATE TABLE sales
 );
 
 -- END of SCHEMAS
+
 
 
 
